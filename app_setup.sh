@@ -11,8 +11,6 @@ curl -o pi_weather_docker.py https://raw.githubusercontent.com/TerryDennisonJr/w
 curl -o Dockerfile https://raw.githubusercontent.com/TerryDennisonJr/weather_pi_docker/main/Dockerfile
 curl -o docker-compose.yaml https://raw.githubusercontent.com/TerryDennisonJr/weather_pi_docker/main/docker-compose.yaml
 
-cd ..
-
 sudo docker-compose up
 #sudo docker-compose run app
 
