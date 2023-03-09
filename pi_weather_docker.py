@@ -55,3 +55,4 @@ while True:
     weather_id = cursor2.lastrowid
 
     db3.commit()
+    time.sleep(3)
