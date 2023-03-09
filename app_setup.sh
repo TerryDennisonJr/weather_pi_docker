@@ -10,7 +10,7 @@ curl -o Dockerfile https://raw.githubusercontent.com/TerryDennisonJr/weather_pi_
 curl -o docker-compose.yaml https://raw.githubusercontent.com/TerryDennisonJr/weather_pi_docker/main/docker-compose.yaml
 
 # pwd needs to be in the path where .yaml file is located
-sudo docker-compose up
+#sudo docker-compose up
 #sudo docker-compose run app
 
 
